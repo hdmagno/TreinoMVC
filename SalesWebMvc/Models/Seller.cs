@@ -19,7 +19,6 @@ namespace SalesWebMvc.Models
         [Required(ErrorMessage = "{0} required")]
         [DataType(DataType.Date)]
         [Display(Name = "Birth Date")]
-        [DisplayFormat(DataFormatString = "{0}:dd/MM/yyyy")]
         public DateTime BirthDate { get; set; }
         [Required(ErrorMessage = "{0} required")]
         [Range(100.0, 5000.0, ErrorMessage = "{0} must be from {1} to {2}")]
